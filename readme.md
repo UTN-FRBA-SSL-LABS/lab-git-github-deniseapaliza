@@ -286,7 +286,7 @@ c) Para que el historial de commits sea más corto y lineal
 d) Porque GitHub Classroom lo requiere para la corrección automática
 
 ```
-RESPUESTA_P1=
+RESPUESTA_P1=b
 ```
 
 ---
@@ -413,7 +413,7 @@ c) Hacer un rebase interactivo para reescribir el historial antes de responder a
 d) Pedirle al owner que mergee igual y hacer el fix en un PR separado
 
 ```
-RESPUESTA_P2=
+RESPUESTA_P2=b
 ```
 
 ---
@@ -570,11 +570,8 @@ Abrí `operaciones.c`. Vas a ver algo así:
 
 ```c
 int esPar(int n) {
-<<<<<<< HEAD
     return (n % 2) == 0; /* version main */
-=======
     return (n & 1) == 0;
->>>>>>> origin/feature/conflicto-demo
 }
 ```
 
@@ -612,6 +609,7 @@ git add operaciones.c
 git commit -m "Resuelve conflicto en esPar: conserva version con operador %"
 git push
 ```
+
 
 ---
 
@@ -678,11 +676,11 @@ d) El tiempo que tardó en implementarse y el nombre del autor
 ```
 RESPUESTA_P7=
 ```
-
 ---
 
 ## Entrega
 
+<<<<<<< HEAD
 ### Checklist
 
 - [ ] `feature/mi-funcion` mergeada a `main` vía PR
